@@ -1,0 +1,124 @@
+::-webkit-scrollbar {
+    display: none;
+}
+*{
+    /* background: url('museum2.jpg'); */
+    /* width: 100%;  */
+    margin: 0;
+    padding: 0;
+    list-style:none;
+}
+
+/* Heading text */
+#welcome{
+    text-align: center;
+}
+
+/* Typewriter text */
+.txt-type > .txt {
+    border-right: 0.1rem solid #777;
+    color: maroon;
+    text-align: center;
+}
+
+.taglines {
+    padding: 0 25% 0% 42%;
+}
+
+.tagspan {
+    display: flex;
+    align-items: center;
+}
+
+/* Footer */
+footer{
+    background: #111;
+    height: auto;
+    width: 100vw;
+    color: #fff;
+    bottom: 0;
+}
+footer h3{
+    align-self: center;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+}
+footer p{
+    margin-bottom: 0;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 1rem 0;
+    padding-left: 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    color: white;
+}
+.socials a i{
+    size: 1.1rem;
+    transition: color .4s ease;
+}
+
+ul.rating{
+ 
+    background:url(images/star.jpg) bottom;
+     
+    height:21px;
+     
+    width:115px;
+     
+    overflow:hidden;
+     
+}
+    
+ul.rating li{
+ 
+    display:inline
+     
+}
+    
+.rating a {
+ 
+    display:block;
+     
+    width:23px;
+     
+    height:21px;
+     
+    float:left;
+     
+    text-indent:-9999px;
+     
+    position:relative;
+     
+}
+.rating a:hover {
+ 
+    background:url(images/star.jpg) center;
+     
+    width:115px;
+     
+    margin-left:-92px;
+     
+    position:static;
+     
+    }
+.rating a:active {
+ 
+    background-position:top;
+         
+}
+            
